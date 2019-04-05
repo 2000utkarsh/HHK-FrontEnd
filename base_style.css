@@ -1,0 +1,131 @@
+html{
+    overflow-x: hidden; 
+}
+.navbar.navbar-expand-lg.sticky-top.navbar-light{
+    background-color: #135eb5; 
+}
+.navbar-brand{
+    color: #fff !important;
+    font-family: Century Gothic;
+    font-size: 150%;
+    padding-top: 2vh;   
+    letter-spacing: 0.1px;
+}
+.nav-link{
+    color: #fff !important;
+    padding-right: 20px !important; 
+}
+#logo {
+    max-height:55px;
+    margin-right:10px;
+  }
+.nav-link-get{
+    background-color: orange;
+}
+.carousel.slide{
+    margin-top: 0px !important; 
+    
+}
+.upcoming_event{
+    text-align: center;
+    padding-top: 40px;
+    color: #382a22;
+    font-weight: 700; 
+    font-size: 40px; 
+}
+.safar-image{
+    height: 500px !important;
+    width: 500px !important;
+}
+.card-body{
+    text-align: center !important;
+}
+.counter_main{
+    background-color:#135eb5;
+    height:100px;
+    margin-top: 120px; 
+    color: #fff;
+
+}
+.counter_main_container{
+    height:100px;
+    background-color:#135eb5;
+    padding-right:0px;
+    padding-left:0px; 
+   
+}
+.counter_main_row{
+    height:100px;
+    background-color:#135eb5;
+    font-size: 72px !important;
+
+}
+.first_column,.second_column,.third_column{
+    background-color:#135eb5;
+    padding-right:0px;
+    padding-left:0px;
+
+}
+.counter_event, .counter_people, .counter_volunteers{
+    margin-bottom:10px;
+    font-size:72px !important;
+    background-color:#135eb5;
+    text-align: center; 
+
+}
+.counter_event_text,.counter_people_text,.counter_volunteers_text{
+    margin-bottom:10px;
+    background-color:#135eb5;
+    font-size:28px;
+    text-align: center;
+}
+.achievements_heading{
+    padding-top: 110px;
+    margin-bottom: 80px; 
+    text-align: center; 
+} 
+.achievements_image_1, .achievements_image_2, .achievements_image_3{
+    border-radius: 50% !important;
+    height: 300px !important;
+    width: 300px !important; 
+    margin-bottom: 50px; 
+}
+.achievements_image_1_heading, .achievements_image_2_heading, .achievements_image_3_heading{
+    font-size: 22px !important;
+
+}
+.testimonials_main_heading{
+    margin-top: 70px; 
+}
+
+.vue_carousel {
+    background-color: #ddd;
+    height: 100vh;
+    position: relative;
+  }
+  .vue_carousel > div {
+    background-color: #000;
+    color: #fff;
+    width: 10vw;
+    height: 10vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 10vw;
+    font-family: sans-serif;
+    font-size: 6vw;
+  }
+  .vue_carousel .dots {
+    position: absolute;
+    bottom: 0;
+    padding: 5%;
+    width: 100%;
+  }
+  .vue_carousel .dots .dot {
+    background-color: #000;
+  }
+  
+
