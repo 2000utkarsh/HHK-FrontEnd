@@ -177,5 +177,11 @@ html{
     width: 120px;
  }
 .copyright_text{
-    
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+.copyright_div{
+    background-color: #135eb5; 
+    text-align: center;
 }
