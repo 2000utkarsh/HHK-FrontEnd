@@ -1,0 +1,67 @@
+html{
+    overflow-x: hidden; 
+}
+.about_us_heading{
+    text-align: center;
+    padding-top: 30px;
+    color: #382a22; 
+}
+.image_1 ,.image_2,.image_3{
+    height: 100%;
+    width: 102%;
+    margin: 0%;
+}
+.main_row{
+    height: 100vh;
+}
+
+.image_text{
+    padding-top: 100px;
+}
+.aboutCards{
+    background-color:rgb(255,255,255);
+    padding:0px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px 1px;
+}
+#about{
+    padding-right:0px;
+    padding-left:0px;
+}
+.image_div{
+    padding-right:0px;
+    padding-left:0px;
+    height: 400px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px 1px;
+
+}
+.image_text_1 ,.image_text_2, .image_text_3{
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.image_text p{
+    font-size:18px;
+    text-align: justify;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.about_image_1_row, .about_image_2_row, .about_image_3_row{
+    margin-bottom: 120px; 
+}
+.gallery_heading{
+    text-align: center;
+}
+.image_individual_row{
+    height: 300px;
+}
+.image_individual_row{
+    padding-bottom: 20px; 
+}
+.gallery_image{
+    border-radius: 20px; 
+}
