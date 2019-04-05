@@ -1,8 +1,9 @@
 html{
     overflow-x: hidden; 
 }
+
 .navbar.navbar-expand-lg.sticky-top.navbar-light{
-    background-color: #135eb5; 
+    background-color: #135eb5;  
 }
 .navbar-brand{
     color: #fff !important;
@@ -84,6 +85,13 @@ html{
     margin-bottom: 80px; 
     text-align: center; 
 } 
+
+.achievement_images_row{
+    margin-left: 50px; 
+}
+.achievements_images_text{
+    margin-left: -40px; 
+}
 .achievements_image_1, .achievements_image_2, .achievements_image_3{
     border-radius: 50% !important;
     height: 300px !important;
@@ -147,7 +155,7 @@ html{
 }
 .contact_us{
     font-size: 32px;
-    padding-left: 200px;   
+    padding-left: 120px;   
 }
 .contact_address{
     letter-spacing: 1px;
@@ -157,7 +165,7 @@ html{
      margin-top: 20px; 
      margin-right: 15px;
      font-size: 24px; 
-     padding-left: 200px;  
+     padding-left: 120px;  
  }
  .social_links{
      text-align: center;
@@ -184,4 +192,19 @@ html{
 .copyright_div{
     background-color: #135eb5; 
     text-align: center;
+    margin-top: -2px; 
+}
+@media only screen and (max-width: 767px){
+    .navbar-brand{
+        color: #fff !important;
+        font-family: Century Gothic;
+        font-size: 100%;
+        padding-top: 2vh;   
+        letter-spacing: 0.1px;
+    }
+    .contact_us_div{
+        height: 500px;
+    }
+    .footer_text{
+        text-align: center; 
 }
